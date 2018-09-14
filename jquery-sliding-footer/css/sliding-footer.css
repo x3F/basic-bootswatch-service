@@ -1,0 +1,43 @@
+/* ========================================================================
+ * jQuery Sliding Footer
+ * ========================================================================
+ */
+
+.sliding-footer {
+  bottom: 0;
+	position: fixed;
+	width: 100%;
+  z-index: 500;
+}
+
+#sliding-footer-button {
+	background: top left no-repeat transparent;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: -40px;
+}
+
+#sliding-footer-button span {
+	font-size: 20pt;
+  opacity: 0.25;
+}
+
+#sliding-footer-button span:hover {
+  opacity: 0.5;
+}
+
+#sliding-footer-contents-container {
+  border: none;
+  display: none;
+	height: 0px;
+  overflow: auto;
+	width: 100%;
+}
+
+.sliding-footer-contents {
+	min-height: 100%;
+  margin: 0;
+  padding: 2px 0px 0px 0px;
+}

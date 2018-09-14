@@ -1,0 +1,11 @@
+/* Set the correct size and position of the trigger button,
+   for this specific Bootswatch theme. */
+a.drawer-trigger-button {
+  font-size: 16pt;
+  top: -1px;
+}
+
+/* Fix bug causing glyph icons to be overidden by the font. */
+a.drawer-trigger-button:before{
+    font-family:'Glyphicons Halflings';
+}
